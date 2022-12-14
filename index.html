@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tableGen demo</title>
+    <link rel="stylesheet" href="./src/tablegen.css">
+    <script defer type="module">
+        import { tableGen, getData } from './src/tablegen.mjs'
+        import { selectTheme, selectSize } from './extra/extra.mjs'
+
+        const urlData = './data/data.json'
+        const urlData2 = './data/data2.json'
+
+        void async function () {
+            const data = await getData(urlData)
+            const data2 = await getData(urlData2)
+
+            tableGen(data)
+            tableGen(data2, {
+                idTableContainer: 'my-table',
+                theme: 'red',
+                border: 'rounded',
+                urlFullName: false,
+                fontSize: 'large'
+            })
+            // event select theme  
+            selectTheme()
+        }()
+    </script>
+
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <select name="theme-color" id="theme-color">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="green">Green</option>
+            <option value="khaki">Khaki</option>
+            <option value="blue">Blue</option>
+            <option value="azure">Azure</option>
+            <option value="violet">Violet</option>
+            <option value="pink">Pink</option>
+        </select>
+        <select name="table-size" id="table-size">
+            <option value="table-esmall">font esmall</option>
+            <option value="table-small">font small</option>
+            <option selected value="table-normal">font normal</option>
+            <option value="table-large">font large</option>
+            <option value="table-responsive">font responsive</option>
+        </select>
+        <h1>init without options : tableGen(data)</h1>
+        <div id="tablegen"></div>
+        <h1>init with options : tableGen(data,{...})</h1>
+        <div id="my-table"></div>
+
+    </div>
+
+</body>
+
+</html>

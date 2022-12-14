@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "titolo": "doom",
+        "anno": "1993",
+        "genere": "sparatutto",
+        "developer": "id Software",
+        "url": "https://gamesnostalgia.com/it/game/doom",
+        "star": "8/10"
+    },
+    {
+        "id": 2,
+        "titolo": "contra",
+        "anno": "1988",
+        "genere": "sparatutto",
+        "developer": "konami",
+        "url": "https://gamesnostalgia.com/it/game/contra",
+        "star": "8/10"
+    },
+    {
+        "id": 3,
+        "titolo": "quake 2",
+        "anno": "1997",
+        "genere": "sparatutto",
+        "developer": "id Software",
+        "url": "https://gamesnostalgia.com/it/game/quake-ii",
+        "star": "9/10"
+    },
+    {
+        "id": 4,
+        "titolo": "Warcraft II: Tides Of Darkness",
+        "anno": "1995",
+        "genere": "strategia",
+        "developer": "Blizzard Entertainment",
+        "url": "https://gamesnostalgia.com/it/game/warcraft-ii-tides-of-darkness",
+        "star": "9/10"
+    }
+]
+
