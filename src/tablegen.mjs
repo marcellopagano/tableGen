@@ -1,5 +1,5 @@
 // regex
-const getNameLink = /[^\/]{0,}[\w+#/-]$/gi
+const getNameLink = /[^/]{0,}[\w+#/-]$/gi
 const checkLink = new RegExp('(http://|https://)', 'gi')
 
 async function getData(url) {
