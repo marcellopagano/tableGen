@@ -11,5 +11,13 @@ export const selectTheme = () => {
 }
 
 export const selectSize = () => {
+    const parentTable = document.querySelector('[table-theme]')
+    const getfontSize = parentTable.getAttribute('table-fontsize')
+    const fontSizeSelect = document.getElementById('table-size')
+    fontSizeSelect.value = getfontSize
 
+    fontSizeSelect.addEventListener('change', (e) => {
+       console.log(e.target.value)
+        parentTable.setAttribute('table-fontsize', e.target.value)
+    })
 }
