@@ -14,6 +14,8 @@ E' possibile personalizzare la tabella a proprio piacimento passando le opzioni:
 Altra peculiarità è la possibilità tramite la proprietà *"urlFullName"* di troncare o meno i nomi delle url, inoltre tutte le url verranno trasformate automaticamente in link con un simbolo iniziale che le contraddistingue.
 getData è un funzione d'utility che permette di prelevare dei dati json in modo che questi vengano poi inviati come opzioni alla funzione tableGen. 
 
+[tableGen DEMO](https://marcellopagano.github.io/tableGen/)
+
 ### *syntax*:
 ``` javascript
 tableGen(data, {
