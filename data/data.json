@@ -34,5 +34,221 @@
     "developer": "microprose",
     "url": "https://gamesnostalgia.com/it/game/x-com-ufo-defense",
     "star": "9/10"
+  },
+  {
+    "id": 1,
+    "titolo": "monkey island 2",
+    "anno": "1991",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/monkey-island-2-lechucks-revenge/",
+    "star": "9/10"
+  },
+  {
+    "id": 2,
+    "titolo": "Indiana Jones And The Fate Of Atlantis",
+    "anno": "1992",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/indiana-jones-and-the-fate-of-atlantis",
+    "star": "9/10"
+  },
+  {
+    "id": 3,
+    "titolo": "The Secret of Monkey Island",
+    "anno": "1990",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/secret-of-monkey-island",
+    "star": "9/10"
+  },
+  {
+    "id": 4,
+    "titolo": "UFO: Enemy Unknown",
+    "anno": "1994",
+    "genere": "strategia",
+    "developer": "microprose",
+    "url": "https://gamesnostalgia.com/it/game/x-com-ufo-defense",
+    "star": "9/10"
+  },
+  {
+    "id": 1,
+    "titolo": "monkey island 2",
+    "anno": "1991",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/monkey-island-2-lechucks-revenge/",
+    "star": "9/10"
+  },
+  {
+    "id": 2,
+    "titolo": "Indiana Jones And The Fate Of Atlantis",
+    "anno": "1992",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/indiana-jones-and-the-fate-of-atlantis",
+    "star": "9/10"
+  },
+  {
+    "id": 3,
+    "titolo": "The Secret of Monkey Island",
+    "anno": "1990",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/secret-of-monkey-island",
+    "star": "9/10"
+  },
+  {
+    "id": 4,
+    "titolo": "UFO: Enemy Unknown",
+    "anno": "1994",
+    "genere": "strategia",
+    "developer": "microprose",
+    "url": "https://gamesnostalgia.com/it/game/x-com-ufo-defense",
+    "star": "9/10"
+  },
+  {
+    "id": 1,
+    "titolo": "monkey island 2",
+    "anno": "1991",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/monkey-island-2-lechucks-revenge/",
+    "star": "9/10"
+  },
+  {
+    "id": 2,
+    "titolo": "Indiana Jones And The Fate Of Atlantis",
+    "anno": "1992",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/indiana-jones-and-the-fate-of-atlantis",
+    "star": "9/10"
+  },
+  {
+    "id": 3,
+    "titolo": "The Secret of Monkey Island",
+    "anno": "1990",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/secret-of-monkey-island",
+    "star": "9/10"
+  },
+  {
+    "id": 4,
+    "titolo": "UFO: Enemy Unknown",
+    "anno": "1994",
+    "genere": "strategia",
+    "developer": "microprose",
+    "url": "https://gamesnostalgia.com/it/game/x-com-ufo-defense",
+    "star": "9/10"
+  },
+  {
+    "id": 1,
+    "titolo": "monkey island 2",
+    "anno": "1991",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/monkey-island-2-lechucks-revenge/",
+    "star": "9/10"
+  },
+  {
+    "id": 2,
+    "titolo": "Indiana Jones And The Fate Of Atlantis",
+    "anno": "1992",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/indiana-jones-and-the-fate-of-atlantis",
+    "star": "9/10"
+  },
+  {
+    "id": 3,
+    "titolo": "The Secret of Monkey Island",
+    "anno": "1990",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/secret-of-monkey-island",
+    "star": "9/10"
+  },
+  {
+    "id": 4,
+    "titolo": "UFO: Enemy Unknown",
+    "anno": "1994",
+    "genere": "strategia",
+    "developer": "microprose",
+    "url": "https://gamesnostalgia.com/it/game/x-com-ufo-defense",
+    "star": "9/10"
+  },
+  {
+    "id": 1,
+    "titolo": "monkey island 2",
+    "anno": "1991",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/monkey-island-2-lechucks-revenge/",
+    "star": "9/10"
+  },
+  {
+    "id": 2,
+    "titolo": "Indiana Jones And The Fate Of Atlantis",
+    "anno": "1992",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/indiana-jones-and-the-fate-of-atlantis",
+    "star": "9/10"
+  },
+  {
+    "id": 3,
+    "titolo": "The Secret of Monkey Island",
+    "anno": "1990",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/secret-of-monkey-island",
+    "star": "9/10"
+  },
+  {
+    "id": 4,
+    "titolo": "UFO: Enemy Unknown",
+    "anno": "1994",
+    "genere": "strategia",
+    "developer": "microprose",
+    "url": "https://gamesnostalgia.com/it/game/x-com-ufo-defense",
+    "star": "9/10"
+  },
+  {
+    "id": 1,
+    "titolo": "monkey island 2",
+    "anno": "1991",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/monkey-island-2-lechucks-revenge/",
+    "star": "9/10"
+  },
+  {
+    "id": 2,
+    "titolo": "Indiana Jones And The Fate Of Atlantis",
+    "anno": "1992",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/indiana-jones-and-the-fate-of-atlantis",
+    "star": "9/10"
+  },
+  {
+    "id": 3,
+    "titolo": "The Secret of Monkey Island",
+    "anno": "1990",
+    "genere": "avventura",
+    "developer": "lucasart",
+    "url": "https://gamesnostalgia.com/it/game/secret-of-monkey-island",
+    "star": "9/10"
+  },
+  {
+    "id": 4,
+    "titolo": "UFO: Enemy Unknown",
+    "anno": "1994",
+    "genere": "strategia",
+    "developer": "microprose",
+    "url": "https://gamesnostalgia.com/it/game/x-com-ufo-defense",
+    "star": "9/10"
   }
 ]

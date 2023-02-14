@@ -12,19 +12,16 @@
         import { selectTheme, selectSize } from './extra/extra.mjs'
 
         const urlData = './data/data.json'
-        const urlData2 = './data/data2.json'
 
         void async function () {
             const data = await getData(urlData)
-            const data2 = await getData(urlData2)
 
-            tableGen(data)
-            tableGen(data2, {
+            tableGen(data, {
                 idTableContainer: 'my-table',
-                theme: 'red',
+                theme: 'dark',
                 border: 'rounded',
                 urlFullName: false,
-                fontSize: 'large'
+                fontSize: 'normal'
             })
             // event select theme  
             selectTheme()
@@ -42,29 +39,32 @@
 <body>
 
     <div class="container">
-        <select name="theme-color" id="theme-color">
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-            <option value="red">Red</option>
-            <option value="orange">Orange</option>
-            <option value="green">Green</option>
-            <option value="khaki">Khaki</option>
-            <option value="blue">Blue</option>
-            <option value="azure">Azure</option>
-            <option value="violet">Violet</option>
-            <option value="pink">Pink</option>
-        </select>
-        <select name="table-size" id="table-size">
-            <option value="esmall">font esmall</option>
-            <option value="small">font small</option>
-            <option selected value="normal">font normal</option>
-            <option value="large">font large</option>
-            <option value="responsive">font responsive</option>
-        </select>
-        <h1>init without options : tableGen(data)</h1>
-        <div id="tablegen"></div>
-        <h1>init with options : tableGen(data,{...})</h1>
-        <div id="my-table"></div>
+        <div class="head">
+            <select name="theme-color" id="theme-color">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+                <option value="red">Red</option>
+                <option value="orange">Orange</option>
+                <option value="green">Green</option>
+                <option value="khaki">Khaki</option>
+                <option value="blue">Blue</option>
+                <option value="azure">Azure</option>
+                <option value="violet">Violet</option>
+                <option value="pink">Pink</option>
+            </select>
+            <select name="table-size" id="table-size">
+                <option value="esmall">font esmall</option>
+                <option value="small">font small</option>
+                <option selected value="normal">font normal</option>
+                <option value="large">font large</option>
+                <option value="responsive">font responsive</option>
+            </select>
+            <h1 style="text-align: center;">tableGen</h1>
+        </div>
+
+        <div class="tablecontainer">
+            <div id="my-table"></div>
+        </div>
 
     </div>
 

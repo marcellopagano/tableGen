@@ -1,3 +1,8 @@
+.tablecontainer {
+    display: flex;
+    justify-content: center;
+}
+
 [table-theme]>table {
     width: 100%;
     background-color: var(--table-bg);
@@ -24,10 +29,6 @@
     overflow: auto;
 }
 
-table tr {
-    border-top: 1px solid var(--table-border);
-}
-
 table>tbody>tr>td>a {
     color: var(--table-color);
     text-decoration: none;
@@ -43,7 +44,8 @@ table>tbody>tr>td:first-child {
 }
 
 table>tbody>tr>td,
-table>thead>tr>th {
+table>thead>tr>th,
+table>tfoot>tr>th {
     padding: .7rem;
 }
 
@@ -76,7 +78,6 @@ table>tbody>tr:nth-of-type(odd) {
     --table-color: #123;
     --table-bg: #fff;
     --table-strip: #eee;
-    --table-border: lightgray;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
@@ -86,7 +87,6 @@ table>tbody>tr:nth-of-type(odd) {
     --table-color: whitesmoke;
     --table-bg: #222;
     --table-strip: #333;
-    --table-border: #444;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
@@ -96,7 +96,6 @@ table>tbody>tr:nth-of-type(odd) {
     --table-color: #ffba08;
     --table-bg: #6a040f;
     --table-strip: #9d0208;
-    --table-border: #d00000;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
@@ -106,7 +105,6 @@ table>tbody>tr:nth-of-type(odd) {
     --table-color: #370617;
     --table-bg: #e85d04;
     --table-strip: #f48c06;
-    --table-border: #faa307;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
@@ -116,7 +114,6 @@ table>tbody>tr:nth-of-type(odd) {
     --table-color: #dad7cd;
     --table-bg: #344e41;
     --table-strip: #3a5a40;
-    --table-border: #588157;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
@@ -126,7 +123,6 @@ table>tbody>tr:nth-of-type(odd) {
     --table-color: #344e41;
     --table-bg: #99d98c;
     --table-strip: #b5e48c;
-    --table-border: #d9ed92;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
@@ -136,7 +132,6 @@ table>tbody>tr:nth-of-type(odd) {
     --table-color: #caf0f8;
     --table-bg: #03045e;
     --table-strip: #023e8a;
-    --table-border: #0077b6;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
@@ -146,7 +141,6 @@ table>tbody>tr:nth-of-type(odd) {
     --table-color: #023e8a;
     --table-bg: #caf0f8;
     --table-strip: #ade8f4;
-    --table-border: #90e0ef;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
@@ -156,7 +150,6 @@ table>tbody>tr:nth-of-type(odd) {
     --table-color: indigo;
     --table-bg: #c8b6ff;
     --table-strip: #e7c6ff;
-    --table-border: #ffd6ff;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
@@ -166,7 +159,6 @@ table>tbody>tr:nth-of-type(odd) {
     --table-color: Maroon;
     --table-bg: #ffb3c6;
     --table-strip: #ff8fab;
-    --table-border: #fb6f92;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }

@@ -28,23 +28,13 @@ function tableGen(data = [], options = {}) {
 
     const table = document.createElement('table')
 
-    // head table
-    const thead = document.createElement('thead')
-    const theadTr = document.createElement('tr')
-    thead.appendChild(theadTr)
     const tbody = document.createElement('tbody')
-    // head th
-    for (const key in data[0]) {
-        const th = document.createElement('th')
-        th.textContent = `${key}`
-        theadTr.appendChild(th)
-    }
-    table.appendChild(thead)
+
     // row table
     data.forEach(obj => {
         const tr = document.createElement('tr')
-        for (const key in obj) {
 
+        for (const key in obj) {
             const td = document.createElement('td')
             // generate td or td link
             if (checkLink.test(obj[key])) {
@@ -68,7 +58,21 @@ function tableGen(data = [], options = {}) {
         }
         tbody.appendChild(tr)
     })
-    table.appendChild(tbody)
+    // @param thead/tfoot 
+    function tableHeading(el) {
+        const ell = document.createElement(`${el}`)
+        const tr = document.createElement('tr')
+        ell.appendChild(tr)
+        for (const key in data[0]) {
+            const th = document.createElement('th')
+            th.textContent = `${key}`
+            tr.appendChild(th)
+        }
+        return ell
+    }
+    const thead = tableHeading('thead')
+    const tfoot = tableHeading('tfoot')
+    table.append(thead, tbody, tfoot)
     container.appendChild(table)
 }
 
